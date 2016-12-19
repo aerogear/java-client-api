@@ -20,7 +20,6 @@
     BuildConsoleStreamListener buildListener = ...
     build.streamConsoleOutput(listener, 3, 420);
    ```
-
    Thanks to Wojciech Trocki.
 
  * [Fixed Issue 222][issue-222]
