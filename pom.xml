@@ -9,30 +9,30 @@
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <groupId>org.sonatype.oss</groupId>
-    <artifactId>oss-parent</artifactId>
-    <version>9</version>
+    <groupId>org.jboss.aerogear</groupId>
+    <artifactId>aerogear-parent</artifactId>
+    <version>0.2.20.2</version>
   </parent>
 
   <name>Jenkins API client for Java</name>
-  <url>http://github.com/jenkinsci/java-client-api</url>
+  <url>https://github.com/aerogear/java-client-api</url>
   <description>A Jenkins API client for Java</description>
 
-  <groupId>com.offbytwo.jenkins</groupId>
-  <artifactId>jenkins-client-parent</artifactId>
+  <groupId>org.jboss.aerogear</groupId>
+  <artifactId>jenkins-java-client</artifactId>
   <version>0.3.8-SNAPSHOT</version>
   <packaging>pom</packaging>
 
   <scm>
-    <connection>scm:git:https://github.com/jenkinsci/java-client-api.git</connection>
-    <developerConnection>scm:git:ssh://git@github.com/jenkinsci/java-client-api.git</developerConnection>
-    <url>https://github.com/jenkinsci/java-client-api</url>
+    <connection>scm:git:https://github.com/aerogear/java-client-api.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com/aerogear/java-client-api.git</developerConnection>
+    <url>https://github.com/aerogear/java-client-api</url>
     <tag>HEAD</tag>
   </scm>
   <distributionManagement>
     <site>
       <id>github</id>
-      <url>scm:git:https://github.com/jenkinsci/java-client-api.git</url>
+      <url>scm:git:https://github.com/aerogear/java-client-api.git</url>
     </site>
   </distributionManagement>
   <ciManagement>
