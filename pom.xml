@@ -19,7 +19,7 @@
   <description>A Jenkins API client for Java</description>
 
   <groupId>org.jboss.aerogear</groupId>
-  <artifactId>jenkins-java-client</artifactId>
+  <artifactId>jenkins-client-parent</artifactId>
   <version>0.3.8-SNAPSHOT</version>
   <packaging>pom</packaging>
 
