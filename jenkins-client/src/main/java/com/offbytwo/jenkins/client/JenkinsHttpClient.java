@@ -322,8 +322,7 @@ public class JenkinsHttpClient {
      *            path to request, can be relative or absolute
      * @param data
      *            data to post
-     * @throws IOException,
-     *             HttpResponseException
+     * @throws IOException the HttpResponseException
      */
     public HttpResponse post_form_with_result(String path, List<NameValuePair> data, boolean crumbFlag) throws IOException {
         HttpPost request;
