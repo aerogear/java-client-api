@@ -42,9 +42,9 @@ public class AppleDeveloperProfileCredential extends Credential {
    * developerprofile/
    *   - account.keychain (can be empty. Required for validation. The plugin will create a new keychain before build)
    *   - identities
-   *    |- <name>.p12 (A exported P12 file. Should contain both certificate and private key)
+   *    |- developer.p12 (A exported P12 file. Should contain both certificate and private key. Name can be anything, but the ext has to be ".p12")
    *   - profiles
-   *    |- <name>.mobileprovision (A mobile provisioning profile)
+   *    |- app.mobileprovision (A mobile provisioning profile. Name can be anything, but the ext has to be ".mobileprovision")
    * @param developerProfileContent
    */
   public void setDeveloperProfileContent(byte[] developerProfileContent) {
