@@ -19,7 +19,7 @@
 
   <dependencies>
     <dependency>
-      <groupId>com.offbytwo.jenkins</groupId>
+      <groupId>org.jboss.aerogear</groupId>
       <artifactId>jenkins-client</artifactId>
       <version>${project.version}</version>
     </dependency>
